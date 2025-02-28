@@ -1,6 +1,6 @@
 # DO NOT CHEAT!
 
-![image](assets/img/angry_diana.jpg "Seriously, do not!")
+![image](assets/img/angry_diana.png "Seriously, do not!")
 
 This project was written with much love, but no server-side processing. That means all the pages and answers are available right here, if you know where to look.
 
