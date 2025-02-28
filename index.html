@@ -4,18 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARG Puzzle</title>
-    <script>
-        function checkAnswer() {
-            let input = document.getElementById("answer").value.toLowerCase();
-            let correctAnswer = "secretdoor";
-
-            if (input === correctAnswer) {
-                window.location.href = "next-clue.html";
-            } else {
-                document.getElementById("hint").innerText = "Try again! Hint: Look at the stars.";
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h2>Enter the answer to proceed:</h2>
