@@ -1,6 +1,38 @@
+@font-face {
+    font-family: 'monocraft';
+    src: url('assets/font/monocraft.ttf') format('truetype'); /* Adjust format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: black;
-    color: azure;
-    font-family: monospace;
-    font-size:larger;
+    color: white;
+    font-family: monocraft;
+    font-size:xx-large;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    place-items: center;  /* Centers both horizontally & vertically */
+}
+
+.question {
+    margin-top: 30vh; /* Adjust the value to move it lower */
+}
+
+input[type="text"] {
+    width: 100vw;       /* Increases width */
+    height: 40px;       /* Increases height */
+    font-size: 36px;    /* Makes text larger */
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+
+#hint {
+    color: gray;
 }
