@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     place-items: center;  /* Centers both horizontally & vertically */
+    flex-direction: column; /* Stack elements vertically */
 }
 
 .question {
