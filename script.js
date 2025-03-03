@@ -6,7 +6,9 @@ window.onload = function() {
 answerMap = {
     "free": "free",
     "beginning": "beginning",
-    "qrcode": "qrcode"
+    "patience": "patience",
+    "keep going": "keep_going",
+    "afraid": "afraid"
 }
 
 function checkAnswer() {

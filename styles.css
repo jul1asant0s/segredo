@@ -37,3 +37,15 @@ input[type="text"] {
 #hint {
     color: gray;
 }
+
+.invisible {
+    color: black;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+img.large {
+    width: 40vw;
+}
