@@ -20,7 +20,7 @@ body{
 }
 
 .question {
-    margin-top: 30vh; /* Adjust the value to move it lower */
+    margin-top: 25vh; /* Adjust the value to move it lower */
 }
 
 input[type="text"] {
@@ -48,4 +48,14 @@ img {
 
 img.large {
     width: 40vw;
+}
+
+img.stupid_big {
+    width: 12000px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
 }
