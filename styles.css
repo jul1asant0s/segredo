@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'monocraft';
-    src: url('assets/font/monocraft.ttf') format('truetype'); /* Adjust format if needed */
+    src: url('assets/font/monocraft.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,18 +15,18 @@ body{
 .center {
     display: flex;
     justify-content: center;
-    place-items: center;  /* Centers both horizontally & vertically */
-    flex-direction: column; /* Stack elements vertically */
+    place-items: center;
+    flex-direction: column;
 }
 
 .question {
-    margin-top: 25vh; /* Adjust the value to move it lower */
+    margin-top: 25vh;
 }
 
 input[type="text"] {
-    width: 100vw;       /* Increases width */
-    height: 40px;       /* Increases height */
-    font-size: 36px;    /* Makes text larger */
+    width: 100vw;
+    height: 40px;
+    font-size: 36px;
     background: none;
     border: none;
     outline: none;
