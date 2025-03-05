@@ -59,3 +59,21 @@ a {
     text-decoration: none;
     font-style: italic;
 }
+
+.pad {
+    margin-top: 15vh;
+}
+
+.fade_in {
+    opacity: 0;
+    animation: fadeIn 10s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
