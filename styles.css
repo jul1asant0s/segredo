@@ -77,3 +77,23 @@ a {
         opacity: 1;
     }
 }
+
+.relative_pos {
+    position: relative;
+}
+
+[class^="door"] {
+    width: 2.5vmax;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.door0 {top: 90vh; left: 50vw;}
+.door1 {top: 20vh; left: 35vw;}
+.door2 {top: 80vh; left: 65vw;}
+.door3 {top: 50vh; left: 28vw;}
+.door4 {top: 20vh; left: 65vw;}
+.door5 {top: 80vh; left: 35vw;}
+.door6 {top: 50vh; left: 72vw;}
+.door7 {top: 50vh; left: 50vw;}
+.door8 {top: 10vh; left: 50vw;}
