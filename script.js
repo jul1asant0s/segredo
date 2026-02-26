@@ -46,6 +46,8 @@ answerMap = {
     "keep going": "keep_going",
     "afraid": "afraid",
     "lucas": "lucas",
+    "ictos": "ictos",
+    "uma": "uma",
 }
 
 function checkAnswer() {
