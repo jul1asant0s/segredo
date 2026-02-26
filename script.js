@@ -48,6 +48,10 @@ answerMap = {
     "lucas": "lucas",
     "ictos": "ictos",
     "uma": "uma",
+    "67": "67",
+    "6 7": "67",
+    "sixseven": "67",
+    "six seven": "67", // yes im pulling a toby fox here shut up
 }
 
 function checkAnswer() {

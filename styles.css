@@ -97,3 +97,7 @@ a {
 .door6 {top: 50vh; left: 72vw;}
 .door7 {top: 50vh; left: 50vw;}
 .door8 {top: 10vh; left: 50vw;}
+
+.border {
+    border: 2px solid white;
+}
