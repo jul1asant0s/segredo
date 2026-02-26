@@ -50,9 +50,15 @@ answerMap = {
     "uma": "uma",
     "67": "67",
     "6 7": "67",
+    "6.7": "67",
+    "6,7": "67",
+    "6, 7": "67",
+    "6 and 7": "67",
     "sixseven": "67",
-    "six seven": "67", // yes im pulling a toby fox here shut up
+    "six seven": "67",
+    "six and seven": "67", // yes im pulling a toby fox here shut up
     "sus": "sus",
+    "lobotomy": "lobotomy",
 }
 
 function checkAnswer() {
@@ -72,4 +78,8 @@ document.getElementById("answer").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         checkAnswer();
     }
+});
+
+window.addEventListener("pageshow", function () {
+    document.getElementById("answer").value = "";
 });
