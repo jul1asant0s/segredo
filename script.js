@@ -52,6 +52,7 @@ answerMap = {
     "6 7": "67",
     "sixseven": "67",
     "six seven": "67", // yes im pulling a toby fox here shut up
+    "sus": "sus",
 }
 
 function checkAnswer() {
