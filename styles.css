@@ -21,6 +21,24 @@ html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;}
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.pad-left {
+    position: relative;
+    left: 25%;
+}
+
+.pad-right {
+    position: relative;
+    right: 25%;
+}
+
 .center {
     display: flex;
     justify-content: center;
